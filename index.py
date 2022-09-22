@@ -7,7 +7,7 @@ import time
 from GradientGen import PrintGradient, PrintLinearGradient
 
 # Program variables
-checker_title = "Grubhub Checker"
+checker_title = "S4p Checker"
 author = "S4ponci0u"
 
 # Accounts stats
