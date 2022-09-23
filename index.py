@@ -46,6 +46,7 @@ def main():
         for line in f:
             email, password = line.split(':')
             check(email, password)
+    time.sleep(1000)
 
 def update_title(checked: bool = None, hit: bool = None, bad:bool = None):
     if (checked):
@@ -64,9 +65,14 @@ def check(email:str, password:str):
     # define your code here!
     hit = True
 
+    if (email.startswith("milly")):
+        hit = True
+    else:
+        hit = False
     if (hit):
         print(f"{fg('green')}\t[+] {fg('white')}Hit: {email}:{password}{reset}")
         update_title(checked=True, hit=True)
     elif (hit == False):
+        print(f"{fg('red')}\t[-] {fg('white')}Bad: {email}:{password}{reset}")
         update_title(checked=True, bad=True)
 main()
