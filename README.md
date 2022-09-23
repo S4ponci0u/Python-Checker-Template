@@ -9,7 +9,7 @@
 
 <center><code>git clone https://github.com/S4ponci0u/Python-Checker-Template.git</code></center></br></br>
 
-<center>Then, move to the folder that gonna be created and just run the next command:</center>
+<center>Then, move to the folder that gonna be created and just run the next command:</center></br>
 
 <center><code>python3 -m pip install -r requeriments.txt</code></center></br></br>
 
